@@ -1,0 +1,6 @@
+<!--pages/mine/mine.wxml-->
+<text>pages/mine/mine.wxml</text>
+<button bindtap="getInfo" size="mini" type="primary">获取系统信息</button>
+<button bindtap="information" size="mini" type="primary">消息提示框</button>
+<button bindtap="showModel" size="mini" type="primary">模态对话框</button>
+<button bindtap="loading" size="mini" type="primary">等待提示框</button>

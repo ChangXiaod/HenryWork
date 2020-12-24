@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "demoa":"../../components/demoa/demoa",
+    "demob":"../../components/demob/demob"
+  },
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "领取优惠劵"
+}

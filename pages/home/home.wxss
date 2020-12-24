@@ -1,0 +1,11 @@
+/* pages/home/home.wxss */
+page{
+  background-color: #eee;
+}
+.clickTo{
+  height: 70rpx;
+  text-align-last: center;
+  border-radius: 10px;
+  background-color: #f66;
+  line-height: 70rpx;
+}

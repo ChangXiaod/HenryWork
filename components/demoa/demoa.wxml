@@ -1,0 +1,6 @@
+<!--conponents/demoa/demoa.wxml-->
+<text>conponents/demoa/demoa.wxml</text>
+<text>{{count}}</text>
+<view wx:for="{{listarr}}" wx:key="id">{{item.name}}</view>
+
+

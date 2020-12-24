@@ -1,0 +1,3 @@
+<!--conponents/demob/demob.wxml-->
+<text>conponents/demob/demob.wxml</text>
+<button size="mini" bindtap="ziFun">逆向传值</button>

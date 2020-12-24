@@ -1,0 +1,22 @@
+<!--pages/phone/phone.wxml-->
+<view>发送请求</view>
+<button bindtap="request" size="mini" type="primary">请求mock数据</button>
+<view>
+  <button bindtap="localhostData" size="mini" type="warn">请求网络数据</button>
+</view>
+<view> 
+  {{listlocal}}
+</view>
+<view>
+  <swiper indicator-dots="true" autoplay="true" interval="3000" duration="1000">
+    <swiper-item>
+      <image src="../../image/swiperfirst.jpg" style="width:{{width}};hieght:{{height}}"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../image/swiper2.jpg" style="width:{{width}};hieght:{{height}}"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../image/swiper3.jpg" style="width:{{width}};hieght:{{height}}"></image>
+    </swiper-item>
+  </swiper>
+</view>

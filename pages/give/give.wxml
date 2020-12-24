@@ -1,0 +1,12 @@
+<!--pages/give/give.wxml-->
+<view class="all">
+  <view class="mainTop">
+    <image src="../../image/ticket.png"class="left"></image>
+    <view class="right">
+      <text class="title">优惠券名称</text>
+      <text>有效期至：2020-02-25</text>
+      <text>使用规则</text>
+    </view>
+  </view>
+</view>
+

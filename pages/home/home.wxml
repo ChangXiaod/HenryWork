@@ -1,0 +1,17 @@
+<!--pages/home/home.wxml-->
+<view>
+
+      <page-meta>
+      <navigation-bar
+        title="{{nbTitle}}"
+        loading="{{nbLoading}}"
+        front-color="{{nbFrontColor}}"
+        background-color="{{nbBackgroundColor}}"
+        color-animation-duration="2000"
+        color-animation-timing-func="easeIn"
+      />
+    </page-meta>
+    <!-- <progress percent="20" color="red" stroke-width="6" active show-info /> -->
+    <navigator url="../give/give?id=1&num=2" class="clickTo">点击去优惠券</navigator>
+   <button size="mini" type="primary" bindtap="linkTo">按钮</button>
+</view>

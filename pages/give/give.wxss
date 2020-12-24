@@ -1,0 +1,24 @@
+/* pages/give/give.wxss */
+page{
+  background-color: #eee;
+}
+.all{
+  background-color: #fff;
+  width: 95%;
+  margin:0 auto;
+  margin-top: 40rpx;
+}
+.mainTop{
+  display: flex;
+}
+.left{
+  height: 200rpx;
+  width: 200rpx;
+  flex: 1;
+}
+.right{
+  height: 200rpx;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}

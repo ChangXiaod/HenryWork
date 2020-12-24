@@ -1,0 +1,29 @@
+<!--pages/list/list.wxml-->
+<text class="text-color">表单组件的使用</text>
+<view>
+  <button size="mini" bindtap="buttonTap">按钮</button>
+  <view>列表渲染</view>
+  <block wx:for="{{arr}}" wx:for-item="i" wx:for-index="j" wx:key="id">
+    <text>{{i.name}}</text>-----------{{j}}
+  </block>
+  {{name}}
+  <view>
+    <text>简易双向数据绑定</text>
+    <input type="text" model:value="{{inputValue}}" />
+  </view>
+  <view>
+    <text id="get-element" bindtap="getElement">获取节点</text>
+  </view>
+  <text>只支持text的嵌套<text space="nbsp"> 空 格</text> </text>
+  <template name="example-tem">
+    <view wx:for="{{arr}}"></view>
+  </template>
+  调用子组件并接受正向传值
+  <demoa count="向子组件传值" listarr="{{arr}}" />
+  <view> 调用子组件时接受逆向传值时绑定的自定义事件
+    <demob bind:ziPao="fuFun"></demob>
+  </view>
+  <view>
+    <text>发送请求</text>
+  </view>
+</view>

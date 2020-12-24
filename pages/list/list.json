@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "demoa":"../../components/demoa/demoa",
+    "demob":"../../components/demob/demob"
+  }
+}
